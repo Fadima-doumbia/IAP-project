@@ -1,0 +1,42 @@
+<div class="container">
+  <img src="../../assets/logoIAP.png" alt="">
+
+  <div class="login-form text-center">
+    <main class="form-signin">
+      <form (ngSubmit)="onSubmit(loginForm)" #loginForm="ngForm">
+        <h1>Se connecter à Investir Au Pays</h1>
+
+        <div class="form-floating">
+          <label for="floatingInput">Adresse email</label>
+          <input type="email"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder=""
+                  name="email"
+                  ngModel
+                  required>
+        </div>
+        <div class="form-floating">
+          <label for="floatingPassword">Mot de passe</label>
+          <input type="password"
+                  class="form-control"
+                  id="floatingPassword"
+                  placeholder=""
+                  name="password"
+                  ngModel
+                  required>
+        </div>
+
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+
+
+        <button class="w-100 btn btn-lg btn-primary"
+                type="submit"
+                [disabled]="loginForm.invalid">Se connecter</button>
+      </form>
+    </main>
+  </div>
+</div>

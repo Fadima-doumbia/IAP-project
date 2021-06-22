@@ -1,0 +1,90 @@
+<img src="../../assets/logoIAP.png" alt="">
+<div class="login-form text-center">
+  <main class="form-signin">
+
+    <form (ngSubmit)="onSubmit()" [formGroup]="signupForm" class="form">
+      <h1>S'incrire à Investir Au Pays</h1>
+      <div class="row g-2">
+        <div class="col-md">
+          <div class="form-floating">
+            <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+              <option selected>Civilité</option>
+              <option value="1">Madame</option>
+              <option value="2">Mr</option>
+              <option value="3">Autre</option>
+            </select>
+            <label for="floatingSelectGrid">Civilité </label>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="form-floating">
+            <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
+              <option selected>Profil</option>
+              <option value="1">Investisseurs</option>
+              <option value="2">Entrepreuneur</option>
+            </select>
+            <label for="floatingSelectGrid">Profil </label>
+          </div>
+        </div>
+      </div>
+      <div class="row g-2">
+      </div>
+<br>
+      <div class="row g-2">
+        <div class="col-md">
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="mdo@example.com">
+            <label for="floatingInputGrid">Nom</label>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="form-floating">
+            <input type="text" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="mdo@example.com">
+            <label for="floatingInputGrid">Prenom</label>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row g-2">
+        <div class="col-md">
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="mdo@example.com">
+            <label for="floatingInputGrid">Telephone</label>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="form-floating">
+            <input type="text" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="mdo@example.com">
+            <label for="floatingInputGrid">Email</label>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row g-2">
+        <div class="col-md">
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="mdo@example.com">
+            <label for="floatingInputGrid">Pays</label>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="form-floating">
+            <input type="text" class="form-control" id="floatingInputGrid" placeholder="name@example.com" value="mdo@example.com">
+            <label for="floatingInputGrid">Mot De Passe</label>
+          </div>
+        </div>
+      </div>
+      <div class="blocPaire">
+        <button class="btn btn-primary"
+              type="submit"
+              [disabled]="signupForm.invalid">Création</button>
+        <p>En cliquant sur S’inscrire, vous acceptez nos Conditions générales. Découvrez comment nous
+          recueillons, utilisonVotr s et partageons vos données en lisant notre Politique d’utilisation
+          des données et comment nous utilisons les cookies et autres technologies similaires en consultant
+          notre Politique d’utilisation des cookies. Vous recevrez peut-être des notifications par texto
+          de notre part et vous pouvez à tout moment vous désabonner.
+        </p>
+      </div>
+    </form>
+  </main>
+</div>

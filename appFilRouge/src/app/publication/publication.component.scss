@@ -1,0 +1,25 @@
+.container{
+  height: auto;
+  width: 30%;
+  background-color: #979690;
+  margin: 10px;
+  .headDiv{
+    display: flex;
+    .photo img{
+      border-radius: 50%;
+      height: 50px;
+      width: 50px;
+    }
+  }
+  .footerDiv{
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid black;
+    .styloPoubelle{
+      i{
+        padding: 0 10px;
+      }
+    }
+  }
+
+}
