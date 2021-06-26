@@ -21,6 +21,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { ReseauComponent } from './reseau/reseau.component';
 import { PublicationComponent } from './publication/publication.component';
 import { MotDePasseComponent } from './mot-de-passe/mot-de-passe.component';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { MotDePasseComponent } from './mot-de-passe/mot-de-passe.component';
     CarouselComponent,
     ReseauComponent,
     PublicationComponent,
-    MotDePasseComponent
+    MotDePasseComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule,

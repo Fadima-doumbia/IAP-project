@@ -14,7 +14,7 @@ export class SignupComponent implements OnInit {
   constructor(
     private authService: AuthService,
     private router: Router
-  ) { 
+  ) {
     this.signupForm = new FormGroup({});
   }
 
