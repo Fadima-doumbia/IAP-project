@@ -25,17 +25,28 @@
       // background-color: #4b7af2;
       display: flex;
     }
-    #navbarDropdown, .dropdown-menu{
-      color: blue-lith;
+
+    .drop_down{
+      #navbarDropdown, .dropdown-menu{
+        color: blue-lith;
+      }
+      .dropdown-toggle,  .dropdown-menu{
+        background-color: #4b7af2;
+      }
+      .dropdown-item{
+        color: white;
+      }
     }
-  .dropdown-toggle,  .dropdown-menu{
-    background-color: #4b7af2;
-  }
-  .dropdown-item{
-    color: white;
-  }
   @media (max-width: 640px) {
-    .dropdown-toggle{
-      background-color: #4b7af2;
+    .drop_down{
+      #navbarDropdown, .dropdown-menu{
+        color: blue-lith;
+      }
+      .dropdown-toggle,  .dropdown-menu{
+        background-color: #4b7af2;
+      }
+      .dropdown-item{
+        color: white;
+      }
     }
   }

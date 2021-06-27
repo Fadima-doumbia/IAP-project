@@ -1,79 +1,54 @@
-img{
-  height: 50px;
-  width: 215px;
-  margin: 16px;
-}
-.form{
-  background-color: #3c5aa6 !important;
-  padding: 3%;
-}
-.login-form {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #f5f5f5;
-}
-
-.form-signin {
-  width: 65%;
-  padding: 15px;
-  margin: auto;
-  text-align: left;
-}
-
-.form-signin .checkbox {
-  font-weight: 400;
-}
-
-.form-signin .form-floating:focus-within {
-  z-index: 2;
-}
-
-.form-signin input[type="email"] {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.form-signin {
-  select{
-    min-width: 230px;
-  }
-  input[type="text"] {
-    min-width: 230px;
-    margin-bottom: -1px;
-    border-radius: 0;
-  }
-
-  input[type="password"] {
-    margin-bottom: 10px;
-    min-width: 230px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
-  label{
-    padding-left: 15px;
-  }
-  .blocPaire{
-    width: 100%;
-    height: auto;
-    display: flex;
-    padding-top: 100px;
-    justify-content: space-between;
-  }
-  button{
-    background-color: #4b7af2 !important;
-    height: 30px;
-    width: 105px !important;
+.container{
+  .logo{
+    max-width: 190px;
+    height: 50px;
     margin: auto;
-    padding-bottom: 37px;
+
+    img{
+      height: auto;
+      width: 100%;
+      margin: 15px auto;
+    }
   }
-  p{
-    font-size: 7px;
+
+  main{
+    background-color: #3c5aa6;
+    border-radius: 10px;
+    padding: 1rem;
     height: auto;
-    width: 40%;
+    width: 70%;
+    margin: 5rem auto;
+    form{
+      padding: 1rem;
+      color: white;
+      .conteneur{
+        padding: 1rem;
+        .form-select{
+          margin: 1rem 0;
+          .label{
+            padding: 1rem;
+          }
+        }
+      }
+      .blocPaire{
+        margin: auto;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        button{
+          background-color: #4b7af2 !important;
+          height: 30px;
+          width: 105px;
+          padding-bottom: 37px;
+        }
+        p{
+          font-size: 7px;
+          height: auto;
+          width: 40%;
+        }
+      }
+    }
   }
 }
 
@@ -81,20 +56,147 @@ img{
   .blocPaire{
     display: block !important;
     // margin: 50px 0;
-    padding-top: 30px !important;
+    // padding-top: 30px !important;
     button{
       background-color: #4b7af2 !important;
       height: 30px;
-      width: 80% !important;
+      width: 100% !important;
       padding-bottom: 35px;
-      margin: 16px !important;
+      // margin: 16px !important;
     }
     p{
       margin-top: 30px;
       font-size: 7px;
       height: auto;
-      width: 100%;
+      width: 80% !important;
     }
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// img{
+//   height: 50px;
+//   width: 215px;
+//   margin: 16px;
+// }
+// .form{
+//   background-color: #3c5aa6 !important;
+//   padding: 3%;
+// }
+// .login-form {
+//   height: 100%;
+//   display: flex;
+//   align-items: center;
+//   padding-top: 40px;
+//   padding-bottom: 40px;
+//   background-color: #f5f5f5;
+// }
+
+// .form-signin {
+//   width: 65%;
+//   padding: 15px;
+//   margin: auto;
+//   text-align: left;
+// }
+
+// .form-signin .checkbox {
+//   font-weight: 400;
+// }
+
+// .form-signin .form-floating:focus-within {
+//   z-index: 2;
+// }
+
+// .form-signin input[type="email"] {
+//   margin-bottom: -1px;
+//   border-bottom-right-radius: 0;
+//   border-bottom-left-radius: 0;
+// }
+
+// .form-signin {
+//   select{
+//     min-width: 230px;
+//   }
+//   input[type="text"] {
+//     min-width: 230px;
+//     margin-bottom: -1px;
+//     border-radius: 0;
+//   }
+
+//   input[type="password"] {
+//     margin-bottom: 10px;
+//     min-width: 230px;
+//     border-top-left-radius: 0;
+//     border-top-right-radius: 0;
+//   }
+//   label{
+//     padding-left: 15px;
+//   }
+//   .blocPaire{
+//     width: 100%;
+//     height: auto;
+//     display: flex;
+//     padding-top: 100px;
+//     justify-content: space-between;
+//   }
+//   button{
+//     background-color: #4b7af2 !important;
+//     height: 30px;
+//     width: 105px !important;
+//     margin: auto;
+//     padding-bottom: 37px;
+//   }
+//   p{
+//     font-size: 7px;
+//     height: auto;
+//     width: 40%;
+//   }
+// }
+
+// @media (max-width: 640px) {
+//   .blocPaire{
+//     display: block !important;
+//     // margin: 50px 0;
+//     padding-top: 30px !important;
+//     button{
+//       background-color: #4b7af2 !important;
+//       height: 30px;
+//       width: 80% !important;
+//       padding-bottom: 35px;
+//       margin: 16px !important;
+//     }
+//     p{
+//       margin-top: 30px;
+//       font-size: 7px;
+//       height: auto;
+//       width: 100%;
+//     }
+//   }
+
+// }

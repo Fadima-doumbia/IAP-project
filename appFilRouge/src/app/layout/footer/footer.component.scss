@@ -37,6 +37,10 @@
   p{
     color: #f27e63 !important;
   }
+  span{
+    font-size: x-small;
+    padding-top: 5px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -47,13 +51,13 @@
     color: white;
     ul{
       display: flex;
-      // justify-content: space-between;
+      flex-wrap: wrap;
       padding: 10px 30px;
       list-style: none;
       li{
         font-size: small;
         color: #f27e63;
-        width: 33%;
+        width: auto;
         p{
           display: none;
           color: white;

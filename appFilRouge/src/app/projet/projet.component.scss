@@ -1,0 +1,49 @@
+.container{
+  border: 1px solid #f27e63;
+  .col-sm-3 {
+    flex: 0 0 auto;
+    width: 24.5%;
+    border: none;
+
+    .form-control, .form-select{
+      border: none;
+      color: #3c5aa6;
+    }
+  }
+  .col-sm-2 {
+  flex: 0 0 auto;
+  width: auto;
+  color: #3c5aa6;
+  }
+  #floatingTextarea2{
+    border: 1px solid #f27e63;
+  }
+}
+@media only screen and (max-width: 750px) and (min-width:480px)  {
+  .col-sm-3 {
+      flex: 0 0 auto;
+      flex-wrap: wrap;
+      width: 35,5% !important;
+      border: none;
+  }
+  .col-sm-2 {
+    flex: 0 0 auto;
+    width: auto;
+  }
+}
+@media(max-width: 480px){
+  .col-sm-3 {
+      flex: 0 0 auto;
+      width: 60% !important;
+      border: none;
+  }
+  .col-sm-2 {
+    flex: 0 0 auto;
+    width: 40% !important;
+  }
+  .form-control, .form-select{
+    border: none;
+    color: #3c5aa6;
+    width: 100%;
+  }
+}

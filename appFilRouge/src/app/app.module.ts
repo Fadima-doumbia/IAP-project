@@ -22,6 +22,10 @@ import { ReseauComponent } from './reseau/reseau.component';
 import { PublicationComponent } from './publication/publication.component';
 import { MotDePasseComponent } from './mot-de-passe/mot-de-passe.component';
 import { FormComponent } from './form/form.component';
+import { HistoriqueComponent } from './historique/historique.component';
+import { ProjetComponent } from './projet/projet.component';
+import { ProfilComponent } from './profil/profil.component';
+import { PostComponent } from './post/post.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +44,11 @@ import { FormComponent } from './form/form.component';
     ReseauComponent,
     PublicationComponent,
     MotDePasseComponent,
-    FormComponent
+    FormComponent,
+    HistoriqueComponent,
+    ProjetComponent,
+    ProfilComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
