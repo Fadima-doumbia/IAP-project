@@ -42,6 +42,4 @@ export class FeaturesService {
     this.featureSubject.next(this.features.slice());
     console.log('Emit Data');
   }
-
-
 }

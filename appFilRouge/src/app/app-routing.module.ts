@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CarouselComponent } from './carousel/carousel.component';
-// import { DetailFeatureComponent } from './detail-feature/detail-feature.component';
+import { DetailUserComponent } from './detail-user/detail-user.component';
 import { FeaturesComponent } from './features/features.component';
 import { AuthGuardGuard } from './guards/auth-guard.guard';
+import { HistoriqueComponent } from './historique/historique.component';
 import { HomeComponent } from './home/home.component';
 import { LayoutComponent } from './layout/layout.component';
+import { ListComponent } from './list/list.component';
 import { LoginComponent } from './login/login.component';
 import { OhFourComponent } from './oh-four/oh-four.component';
 import { OneFeatureComponent } from './one-feature/one-feature.component';
@@ -21,8 +23,11 @@ const routes: Routes = [
   { path: '', canActivate : [AuthGuardGuard] ,component: LayoutComponent, children : [
     { path: '', redirectTo: 'home', pathMatch: 'full'},
     { path: 'home',  component: HomeComponent},
+    { path: 'detail-user',  component: DetailUserComponent},
     { path: 'profil',  component: ProfilComponent},
     { path: 'projet',  component: ProjetComponent},
+    { path: 'historique',  component: HistoriqueComponent},
+    { path: 'liste',  component: ListComponent},
     { path: 'reseau',  component: ReseauComponent},
     { path: 'publication',  component: PublicationComponent},
     { path: 'features', component: FeaturesComponent},

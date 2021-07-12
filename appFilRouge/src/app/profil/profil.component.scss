@@ -1,5 +1,5 @@
 .container{
-  padding: 1rem;
+  padding: 1rem 0;
   .photo{
     height: 100px;
     width: 100px;
@@ -31,7 +31,7 @@
       border: 1px solid #f27e63;
       .form-control{
         border: none;
-      }
+        font-size: x-small;      }
     }
   }
 }

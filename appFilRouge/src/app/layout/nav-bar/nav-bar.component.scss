@@ -4,15 +4,17 @@
     width: 150px;
     color: #f27e63 !important;
   }
+
+  ul.list{
+    margin-left: 70%;
+  }
       li {
         a{
           color: white !important;
-          // color: #f27e63 !important;
         }
-        // a:hover {
-        //   color: white !important;
-        //   color: #f27e63 !important;
-        // }
+        .nav-link:active{
+          color: #f27e63;
+        }
       }
 
       #color{
@@ -30,21 +32,28 @@
       #navbarDropdown, .dropdown-menu{
         color: blue-lith;
       }
+
       .dropdown-toggle,  .dropdown-menu{
         background-color: #4b7af2;
       }
+
       .dropdown-item{
         color: white;
       }
     }
-  @media (max-width: 640px) {
+
+
+  @media (max-width: 640px) {//ajouter des class à utiliser dans le scss
     .drop_down{
       #navbarDropdown, .dropdown-menu{
         color: blue-lith;
       }
+
       .dropdown-toggle,  .dropdown-menu{
         background-color: #4b7af2;
+        right: inherit;
       }
+
       .dropdown-item{
         color: white;
       }

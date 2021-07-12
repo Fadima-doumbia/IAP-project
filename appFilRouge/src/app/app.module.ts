@@ -26,6 +26,9 @@ import { HistoriqueComponent } from './historique/historique.component';
 import { ProjetComponent } from './projet/projet.component';
 import { ProfilComponent } from './profil/profil.component';
 import { PostComponent } from './post/post.component';
+import { ListComponent } from './list/list.component';
+import { DetailUserComponent } from './detail-user/detail-user.component';
+import { UserComponent } from './user/user.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +51,10 @@ import { PostComponent } from './post/post.component';
     HistoriqueComponent,
     ProjetComponent,
     ProfilComponent,
-    PostComponent
+    PostComponent,
+    ListComponent,
+    DetailUserComponent,
+    UserComponent
   ],
   imports: [
     BrowserModule,
