@@ -1,6 +1,5 @@
 package com.farima.investirAuPays.payload.response;
 
-import java.util.List;
 
 public class JwtResponse {
 	private String token;

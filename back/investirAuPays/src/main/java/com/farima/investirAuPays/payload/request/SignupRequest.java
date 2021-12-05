@@ -2,8 +2,6 @@ package com.farima.investirAuPays.payload.request;
 
 import lombok.Data;
 
-import java.util.Set;
-
 import javax.validation.constraints.*;
 
 @Data
