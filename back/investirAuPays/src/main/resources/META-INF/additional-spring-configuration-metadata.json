@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "farima.app.jwtExpirationMs",
+      "type": "java.lang.String",
+      "description": "Description for farima.app.jwtExpirationMs."
+    }
+  ]
+}

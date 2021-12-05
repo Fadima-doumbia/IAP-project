@@ -1,6 +1,5 @@
 package com.farima.investirAuPays.config;
 
-
 import com.farima.investirAuPays.security.jwt.AuthEntryPointJwt;
 import com.farima.investirAuPays.security.jwt.AuthTokenFilter;
 import com.farima.investirAuPays.security.services.impl.UserDetailsServiceImpl;
